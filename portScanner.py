@@ -6,7 +6,7 @@ from queue import Queue
 
 print_lock = threading.Lock()
 
-server = 'pythonprogramming.net'
+server = 'github.com'
 
 def pscan(port):
   s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
